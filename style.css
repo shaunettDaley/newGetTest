@@ -1,0 +1,30 @@
+.poppy-moving{
+    width:300px;
+    height:200px;
+    background-image:url('images/puppy.png');
+    background-repeat:no-repeat;
+    -webkit-animation: mymove 2s infinite;  /* Chrome, Safari, Opera */
+    animation: mymove 2s infinite;
+   
+}
+
+@keyframes mymove{
+    from{left:0px;}
+    to {left:500px;}
+}
+
+@-webkit-keyframes mymove{
+    from{left:0px;}
+    to {left:500px;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes myNEWmove {
+    from {width: 0px;}
+    to {width: 1000px; background: white;}
+  }
+  
+  @keyframes myNEWmove {
+    from {width: 0px;}
+    to {width: 1000px; background: white;}
+  }
