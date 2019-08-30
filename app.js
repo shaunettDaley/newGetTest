@@ -1,5 +1,5 @@
 function changeBackground(){
-    document.style.backgroundColor = "yellow";
+    document.body.style.backgroundColor = "yellow";
 }
 
 
